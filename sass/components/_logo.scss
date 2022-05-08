@@ -1,0 +1,30 @@
+
+.logo--top {
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
+.logo {
+    font-family: $logo-font;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+    text-decoration: none;
+    transition: color $transition-const;
+
+    &:hover, &:focus {
+        color: $accent-text-color;
+    }
+}
+
+.logo-color {
+    color: $accent-text-color;
+}
+
+.logo--bottom {
+    margin-right: 0px;
+    color: $just-white-color;
+}
