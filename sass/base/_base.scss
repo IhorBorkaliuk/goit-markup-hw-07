@@ -16,15 +16,41 @@ section {
 }
 
 header {
-    background-color: $just-white-color;
+    background-color: var(--just-white-color);
     border-bottom: 1px solid #ECECEC;
 }
 
 body {
-    font-family: $main-font;
-    color: $primary-text-color;
+    font-family: var(--main-font);
+    color: var(--primary-text-color);
 }
 
 img {
     display: block;
+}
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+footer {
+    display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--bg-color);
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }

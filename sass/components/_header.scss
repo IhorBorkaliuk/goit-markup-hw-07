@@ -36,7 +36,7 @@
 .contact-button {
     padding: 0px;
     border: none;
-    background-color: $just-white-color;
+    background-color: var(--just-white-color);
 }
 
 .contact-list__icon {
@@ -54,7 +54,7 @@
 
 .nav-list__link:hover,
 .nav-list__link:focus {
-    color: $accent-text-color;
+color: var(--accent-text-color);
 }
 
 .nav-list__link {
@@ -64,15 +64,15 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
-    color: $title-text-color;
+    color: var(--title-text-color);
     text-decoration: none;
     letter-spacing: 0.02em;
-    transition: color $transition-const;
+    transition: color var(--transition-const);
 }
 
 .nav-list__link.current {
     position: relative;
-    color: $accent-text-color;
+    color: var(--accent-text-color);
 }
 
 .nav-list__link.current::after {
@@ -81,14 +81,14 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: $accent-text-color;
+    background-color: var(--accent-text-color);
     border-radius: 2px;
     height: 4px;
 }
 
 .contact-list__link:hover,
 .contact-list__link:focus {
-    color: $accent-text-color;
+    color: var(--accent-text-color);
 }
 
 .contact-list__link {
@@ -97,8 +97,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: $primary-text-color;
+    color: var(--primary-text-color);
     text-decoration: none;
     letter-spacing: 0.02em;
-    transition: color $transition-const;
+    transition: color var(--transition-const);
 }
